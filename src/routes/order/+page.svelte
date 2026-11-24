@@ -103,13 +103,7 @@
 	.row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 	label { display: grid; gap: 0.3rem; font-weight: 600; }
 	input:not([type='radio']), select {
-		font: inherit; line-height: 1.5; padding: 0.55rem 0.7rem; border: 1px solid var(--line); border-radius: 10px; background: #fff;
-	}
-	select {
-		appearance: none;
-		padding-right: 2.2rem;
-		background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%237a6656' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 0.8rem center;
-		cursor: pointer;
+		font: inherit; padding: 0.55rem 0.7rem; border: 1px solid var(--line); border-radius: 10px; background: #fff;
 	}
 	button, .button {
 		font: inherit; font-weight: 700; background: var(--accent); color: #fff; border: 0;
